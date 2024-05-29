@@ -469,6 +469,16 @@
               <FileType>5</FileType>
               <FilePath>.\pwmSetPulse.h</FilePath>
             </File>
+            <File>
+              <FileName>timerForDisplay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\timerForDisplay.c</FilePath>
+            </File>
+            <File>
+              <FileName>timerForDisplay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\timerForDisplay.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

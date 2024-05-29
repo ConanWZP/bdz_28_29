@@ -5,6 +5,7 @@
 #include "initTim4.h"
 #include "initShim.h"
 #include "pwmSetPulse.h"
+#include "timerForDisplay.h"
 
 //#define START_MESSURE() HAL_GPIO_WritePin(GPIOE, GPIO_PIN_7, GPIO_PIN_SET)
 //#define FINISH_MESSURE() HAL_GPIO_WritePin(GPIOE, GPIO_PIN_7, GPIO_PIN_RESET)
@@ -41,6 +42,9 @@ int main (void) {
 	
 	initTim4();
 	
+	
+	//dlya display
+	initDelay();
 	
 	// for termodatchik nado init PC1 kak analog vxod
 	// ACP (ADC1) in neprerivniy regim, razryadnost 12 bit
